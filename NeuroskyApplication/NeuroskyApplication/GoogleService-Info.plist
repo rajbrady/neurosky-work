@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>741610630940-b7qhgog1p9s50ttophrn8b2rnihbi4ee.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.741610630940-b7qhgog1p9s50ttophrn8b2rnihbi4ee</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAnf2_hpyukqx50yXkLpt1uu2k8kYnCG78</string>
+	<key>GCM_SENDER_ID</key>
+	<string>741610630940</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>BTAPVip.NeuroskyApplication</string>
+	<key>PROJECT_ID</key>
+	<string>neuroskyapplication</string>
+	<key>STORAGE_BUCKET</key>
+	<string>neuroskyapplication.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:741610630940:ios:fb2ab0883f328b0e4394d9</string>
+</dict>
+</plist>

@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46D1711027FEB75100BE2016 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D1710F27FEB75100BE2016 /* AppDelegate.swift */; };
+		46D1711227FEB75100BE2016 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D1711127FEB75100BE2016 /* SceneDelegate.swift */; };
+		46D1711427FEB75100BE2016 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D1711327FEB75100BE2016 /* ViewController.swift */; };
+		46D1711727FEB75100BE2016 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D1711527FEB75100BE2016 /* Main.storyboard */; };
+		46D1711927FEB75300BE2016 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D1711827FEB75300BE2016 /* Assets.xcassets */; };
+		46D1711C27FEB75300BE2016 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D1711A27FEB75300BE2016 /* LaunchScreen.storyboard */; };
+		46D1712727FEB75400BE2016 /* NeuroskyApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D1712627FEB75400BE2016 /* NeuroskyApplicationTests.swift */; };
+		46D1713127FEB75400BE2016 /* NeuroskyApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D1713027FEB75400BE2016 /* NeuroskyApplicationUITests.swift */; };
+		46D1713327FEB75400BE2016 /* NeuroskyApplicationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D1713227FEB75400BE2016 /* NeuroskyApplicationUITestsLaunchTests.swift */; };
+		46D171402800189D00BE2016 /* GoogleService-Info (4).plist in Resources */ = {isa = PBXBuildFile; fileRef = 46D1713F2800189D00BE2016 /* GoogleService-Info (4).plist */; };
+		46D17143280019AA00BE2016 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 46D17142280019AA00BE2016 /* FirebaseAnalytics */; };
+		46D17145280019AA00BE2016 /* FirebaseAnalyticsSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 46D17144280019AA00BE2016 /* FirebaseAnalyticsSwift-Beta */; };
+		46D17147280019AA00BE2016 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 46D17146280019AA00BE2016 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		46D17149280019AA00BE2016 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 46D17148280019AA00BE2016 /* FirebaseAppCheck */; };
+		46D1714B280019AA00BE2016 /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 46D1714A280019AA00BE2016 /* FirebaseAppDistribution-Beta */; };
+		46D1714D280019AA00BE2016 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 46D1714C280019AA00BE2016 /* FirebaseAuth */; };
+		46D1714F280019AA00BE2016 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 46D1714E280019AA00BE2016 /* FirebaseAuthCombine-Community */; };
+		46D17151280019AA00BE2016 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 46D17150280019AA00BE2016 /* FirebaseCrashlytics */; };
+		46D17153280019AA00BE2016 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 46D17152280019AA00BE2016 /* FirebaseDatabase */; };
+		46D17155280019AA00BE2016 /* FirebaseDatabaseSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 46D17154280019AA00BE2016 /* FirebaseDatabaseSwift-Beta */; };
+		46D17157280019AA00BE2016 /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 46D17156280019AA00BE2016 /* FirebaseFunctionsCombine-Community */; };
+		46D17159280019AA00BE2016 /* FirebaseInAppMessagingSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 46D17158280019AA00BE2016 /* FirebaseInAppMessagingSwift-Beta */; };
+		46D1715B280019AA00BE2016 /* FirebaseMLModelDownloader in Frameworks */ = {isa = PBXBuildFile; productRef = 46D1715A280019AA00BE2016 /* FirebaseMLModelDownloader */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46D1712327FEB75400BE2016 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46D1710427FEB75100BE2016 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46D1710B27FEB75100BE2016;
+			remoteInfo = NeuroskyApplication;
+		};
+		46D1712D27FEB75400BE2016 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46D1710427FEB75100BE2016 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46D1710B27FEB75100BE2016;
+			remoteInfo = NeuroskyApplication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46D1710C27FEB75100BE2016 /* NeuroskyApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeuroskyApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D1710F27FEB75100BE2016 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46D1711127FEB75100BE2016 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		46D1711327FEB75100BE2016 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46D1711627FEB75100BE2016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46D1711827FEB75300BE2016 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46D1711B27FEB75300BE2016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46D1711D27FEB75300BE2016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46D1712227FEB75400BE2016 /* NeuroskyApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeuroskyApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D1712627FEB75400BE2016 /* NeuroskyApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuroskyApplicationTests.swift; sourceTree = "<group>"; };
+		46D1712C27FEB75400BE2016 /* NeuroskyApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeuroskyApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D1713027FEB75400BE2016 /* NeuroskyApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuroskyApplicationUITests.swift; sourceTree = "<group>"; };
+		46D1713227FEB75400BE2016 /* NeuroskyApplicationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuroskyApplicationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		46D1713F2800189D00BE2016 /* GoogleService-Info (4).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (4).plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46D1710927FEB75100BE2016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D17155280019AA00BE2016 /* FirebaseDatabaseSwift-Beta in Frameworks */,
+				46D17149280019AA00BE2016 /* FirebaseAppCheck in Frameworks */,
+				46D1714D280019AA00BE2016 /* FirebaseAuth in Frameworks */,
+				46D17145280019AA00BE2016 /* FirebaseAnalyticsSwift-Beta in Frameworks */,
+				46D1714B280019AA00BE2016 /* FirebaseAppDistribution-Beta in Frameworks */,
+				46D17147280019AA00BE2016 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				46D17151280019AA00BE2016 /* FirebaseCrashlytics in Frameworks */,
+				46D17153280019AA00BE2016 /* FirebaseDatabase in Frameworks */,
+				46D1714F280019AA00BE2016 /* FirebaseAuthCombine-Community in Frameworks */,
+				46D17157280019AA00BE2016 /* FirebaseFunctionsCombine-Community in Frameworks */,
+				46D17159280019AA00BE2016 /* FirebaseInAppMessagingSwift-Beta in Frameworks */,
+				46D1715B280019AA00BE2016 /* FirebaseMLModelDownloader in Frameworks */,
+				46D17143280019AA00BE2016 /* FirebaseAnalytics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D1711F27FEB75400BE2016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D1712927FEB75400BE2016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46D1710327FEB75100BE2016 = {
+			isa = PBXGroup;
+			children = (
+				46D1710E27FEB75100BE2016 /* NeuroskyApplication */,
+				46D1712527FEB75400BE2016 /* NeuroskyApplicationTests */,
+				46D1712F27FEB75400BE2016 /* NeuroskyApplicationUITests */,
+				46D1710D27FEB75100BE2016 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46D1710D27FEB75100BE2016 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46D1710C27FEB75100BE2016 /* NeuroskyApplication.app */,
+				46D1712227FEB75400BE2016 /* NeuroskyApplicationTests.xctest */,
+				46D1712C27FEB75400BE2016 /* NeuroskyApplicationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46D1710E27FEB75100BE2016 /* NeuroskyApplication */ = {
+			isa = PBXGroup;
+			children = (
+				46D1710F27FEB75100BE2016 /* AppDelegate.swift */,
+				46D1711127FEB75100BE2016 /* SceneDelegate.swift */,
+				46D1711327FEB75100BE2016 /* ViewController.swift */,
+				46D1711527FEB75100BE2016 /* Main.storyboard */,
+				46D1711827FEB75300BE2016 /* Assets.xcassets */,
+				46D1713F2800189D00BE2016 /* GoogleService-Info (4).plist */,
+				46D1711A27FEB75300BE2016 /* LaunchScreen.storyboard */,
+				46D1711D27FEB75300BE2016 /* Info.plist */,
+			);
+			path = NeuroskyApplication;
+			sourceTree = "<group>";
+		};
+		46D1712527FEB75400BE2016 /* NeuroskyApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				46D1712627FEB75400BE2016 /* NeuroskyApplicationTests.swift */,
+			);
+			path = NeuroskyApplicationTests;
+			sourceTree = "<group>";
+		};
+		46D1712F27FEB75400BE2016 /* NeuroskyApplicationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46D1713027FEB75400BE2016 /* NeuroskyApplicationUITests.swift */,
+				46D1713227FEB75400BE2016 /* NeuroskyApplicationUITestsLaunchTests.swift */,
+			);
+			path = NeuroskyApplicationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46D1710B27FEB75100BE2016 /* NeuroskyApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46D1713627FEB75400BE2016 /* Build configuration list for PBXNativeTarget "NeuroskyApplication" */;
+			buildPhases = (
+				46D1710827FEB75100BE2016 /* Sources */,
+				46D1710927FEB75100BE2016 /* Frameworks */,
+				46D1710A27FEB75100BE2016 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeuroskyApplication;
+			packageProductDependencies = (
+				46D17142280019AA00BE2016 /* FirebaseAnalytics */,
+				46D17144280019AA00BE2016 /* FirebaseAnalyticsSwift-Beta */,
+				46D17146280019AA00BE2016 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				46D17148280019AA00BE2016 /* FirebaseAppCheck */,
+				46D1714A280019AA00BE2016 /* FirebaseAppDistribution-Beta */,
+				46D1714C280019AA00BE2016 /* FirebaseAuth */,
+				46D1714E280019AA00BE2016 /* FirebaseAuthCombine-Community */,
+				46D17150280019AA00BE2016 /* FirebaseCrashlytics */,
+				46D17152280019AA00BE2016 /* FirebaseDatabase */,
+				46D17154280019AA00BE2016 /* FirebaseDatabaseSwift-Beta */,
+				46D17156280019AA00BE2016 /* FirebaseFunctionsCombine-Community */,
+				46D17158280019AA00BE2016 /* FirebaseInAppMessagingSwift-Beta */,
+				46D1715A280019AA00BE2016 /* FirebaseMLModelDownloader */,
+			);
+			productName = NeuroskyApplication;
+			productReference = 46D1710C27FEB75100BE2016 /* NeuroskyApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46D1712127FEB75400BE2016 /* NeuroskyApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46D1713927FEB75400BE2016 /* Build configuration list for PBXNativeTarget "NeuroskyApplicationTests" */;
+			buildPhases = (
+				46D1711E27FEB75400BE2016 /* Sources */,
+				46D1711F27FEB75400BE2016 /* Frameworks */,
+				46D1712027FEB75400BE2016 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46D1712427FEB75400BE2016 /* PBXTargetDependency */,
+			);
+			name = NeuroskyApplicationTests;
+			productName = NeuroskyApplicationTests;
+			productReference = 46D1712227FEB75400BE2016 /* NeuroskyApplicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46D1712B27FEB75400BE2016 /* NeuroskyApplicationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46D1713C27FEB75400BE2016 /* Build configuration list for PBXNativeTarget "NeuroskyApplicationUITests" */;
+			buildPhases = (
+				46D1712827FEB75400BE2016 /* Sources */,
+				46D1712927FEB75400BE2016 /* Frameworks */,
+				46D1712A27FEB75400BE2016 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46D1712E27FEB75400BE2016 /* PBXTargetDependency */,
+			);
+			name = NeuroskyApplicationUITests;
+			productName = NeuroskyApplicationUITests;
+			productReference = 46D1712C27FEB75400BE2016 /* NeuroskyApplicationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46D1710427FEB75100BE2016 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					46D1710B27FEB75100BE2016 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					46D1712127FEB75400BE2016 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 46D1710B27FEB75100BE2016;
+					};
+					46D1712B27FEB75400BE2016 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 46D1710B27FEB75100BE2016;
+					};
+				};
+			};
+			buildConfigurationList = 46D1710727FEB75100BE2016 /* Build configuration list for PBXProject "NeuroskyApplication" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46D1710327FEB75100BE2016;
+			packageReferences = (
+				46D17141280019AA00BE2016 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 46D1710D27FEB75100BE2016 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46D1710B27FEB75100BE2016 /* NeuroskyApplication */,
+				46D1712127FEB75400BE2016 /* NeuroskyApplicationTests */,
+				46D1712B27FEB75400BE2016 /* NeuroskyApplicationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46D1710A27FEB75100BE2016 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D1711C27FEB75300BE2016 /* LaunchScreen.storyboard in Resources */,
+				46D1711927FEB75300BE2016 /* Assets.xcassets in Resources */,
+				46D171402800189D00BE2016 /* GoogleService-Info (4).plist in Resources */,
+				46D1711727FEB75100BE2016 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D1712027FEB75400BE2016 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D1712A27FEB75400BE2016 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46D1710827FEB75100BE2016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D1711427FEB75100BE2016 /* ViewController.swift in Sources */,
+				46D1711027FEB75100BE2016 /* AppDelegate.swift in Sources */,
+				46D1711227FEB75100BE2016 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D1711E27FEB75400BE2016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D1712727FEB75400BE2016 /* NeuroskyApplicationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D1712827FEB75400BE2016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D1713127FEB75400BE2016 /* NeuroskyApplicationUITests.swift in Sources */,
+				46D1713327FEB75400BE2016 /* NeuroskyApplicationUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46D1712427FEB75400BE2016 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46D1710B27FEB75100BE2016 /* NeuroskyApplication */;
+			targetProxy = 46D1712327FEB75400BE2016 /* PBXContainerItemProxy */;
+		};
+		46D1712E27FEB75400BE2016 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46D1710B27FEB75100BE2016 /* NeuroskyApplication */;
+			targetProxy = 46D1712D27FEB75400BE2016 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46D1711527FEB75100BE2016 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46D1711627FEB75100BE2016 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46D1711A27FEB75300BE2016 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46D1711B27FEB75300BE2016 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46D1713427FEB75400BE2016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46D1713527FEB75400BE2016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46D1713727FEB75400BE2016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NeuroskyApplication/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BTAPVip.NeuroskyApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46D1713827FEB75400BE2016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NeuroskyApplication/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BTAPVip.NeuroskyApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		46D1713A27FEB75400BE2016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BTAPVip.NeuroskyApplicationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeuroskyApplication.app/NeuroskyApplication";
+			};
+			name = Debug;
+		};
+		46D1713B27FEB75400BE2016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BTAPVip.NeuroskyApplicationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeuroskyApplication.app/NeuroskyApplication";
+			};
+			name = Release;
+		};
+		46D1713D27FEB75400BE2016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BTAPVip.NeuroskyApplicationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NeuroskyApplication;
+			};
+			name = Debug;
+		};
+		46D1713E27FEB75400BE2016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BTAPVip.NeuroskyApplicationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NeuroskyApplication;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46D1710727FEB75100BE2016 /* Build configuration list for PBXProject "NeuroskyApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D1713427FEB75400BE2016 /* Debug */,
+				46D1713527FEB75400BE2016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46D1713627FEB75400BE2016 /* Build configuration list for PBXNativeTarget "NeuroskyApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D1713727FEB75400BE2016 /* Debug */,
+				46D1713827FEB75400BE2016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46D1713927FEB75400BE2016 /* Build configuration list for PBXNativeTarget "NeuroskyApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D1713A27FEB75400BE2016 /* Debug */,
+				46D1713B27FEB75400BE2016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46D1713C27FEB75400BE2016 /* Build configuration list for PBXNativeTarget "NeuroskyApplicationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D1713D27FEB75400BE2016 /* Debug */,
+				46D1713E27FEB75400BE2016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		46D17141280019AA00BE2016 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		46D17142280019AA00BE2016 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 46D17141280019AA00BE2016 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		46D17144280019AA00BE2016 /* FirebaseAnalyticsSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 46D17141280019AA00BE2016 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAnalyticsSwift-Beta";
+		};
+		46D17146280019AA00BE2016 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 46D17141280019AA00BE2016 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		46D17148280019AA00BE2016 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 46D17141280019AA00BE2016 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		46D1714A280019AA00BE2016 /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 46D17141280019AA00BE2016 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+		46D1714C280019AA00BE2016 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 46D17141280019AA00BE2016 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		46D1714E280019AA00BE2016 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 46D17141280019AA00BE2016 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		46D17150280019AA00BE2016 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 46D17141280019AA00BE2016 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		46D17152280019AA00BE2016 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 46D17141280019AA00BE2016 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		46D17154280019AA00BE2016 /* FirebaseDatabaseSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 46D17141280019AA00BE2016 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseDatabaseSwift-Beta";
+		};
+		46D17156280019AA00BE2016 /* FirebaseFunctionsCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 46D17141280019AA00BE2016 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFunctionsCombine-Community";
+		};
+		46D17158280019AA00BE2016 /* FirebaseInAppMessagingSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 46D17141280019AA00BE2016 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessagingSwift-Beta";
+		};
+		46D1715A280019AA00BE2016 /* FirebaseMLModelDownloader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 46D17141280019AA00BE2016 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMLModelDownloader;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 46D1710427FEB75100BE2016 /* Project object */;
+}
